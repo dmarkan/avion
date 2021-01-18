@@ -1,0 +1,33 @@
+body {
+	background-image:url("https://i.ibb.co/vZ7Vcqx/ezgif-com-gif-maker-6.gif");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1400px 900px;
+	background-color:black;
+}
+
+#avion {
+	position:absolute;
+	margin-left:500px;
+	margin-top:200px;
+}
+
+#velicina_l {
+	width:100px;
+	height:100px;
+}
+
+#velicina_r {
+	width:100px;
+	height:100px;
+}
+
+#velicina_u {
+	width:100px;
+	height:100px;
+}
+
+#velicina_d {
+	width:100px;
+	height:100px;
+}

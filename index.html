@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Avion</title>
+<meta charset="UTF-8">
+<meta name="description" content="Avion leti">
+<meta name="keywords" content="avion, nebo">
+<meta name="viewport" content="width=device-width, initial scale=1">
+<meta name="author" content="Darko Markan">
+<link rel="stylesheet" type="text/css" href="stil.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+<script>
+$(document).ready(function() {
+$("#desno").click(function() {
+$("#avion").animate ({
+left:'+=100px'
+});
+});
+});
+$(document).ready(function() {
+$("#levo").click(function() {
+$("#avion").animate ({
+right:'+=100px'
+});
+});
+});
+$(document).ready(function() {
+$("#gore").click(function() {
+$("#avion").animate ({
+bottom:'+=100px'
+});
+});
+});
+$(document).ready(function() {
+$("#dole").click(function() {
+$("#avion").animate ({
+top:'+=100px'
+});
+});
+});
+</script>
+<div id="avion">
+<img src="https://i.ibb.co/pbCtYY4/Unfit-Criminal-Germanwirehairedpointer-max-1mb.gif" width="250px" height="200px" />
+</div>
+<div id="desno">
+<button id="velicina_r">RIGHT</button>
+</div>
+<div id="levo">
+<button id="velicina_l">LEFT</button>
+</div>
+<div id="gore">
+<button id="velicina_u">UP</button>
+</div>
+<div id="dole">
+<button id="velicina_d">DOWN</button>
+</div>
+
+</body>
+
+</html>
